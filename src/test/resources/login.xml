@@ -3,7 +3,10 @@
 <suite name="login" verbose="1">
     <test name="login">
         <classes>
-            <class name="demoqa.book_store.LoginTests"/>
+            <class name="demoqa.book_store.LoginTests">
+                <parameter name="username" value="Sofya"/>
+                <parameter name="password" value="!Milka_04"/>
+            </class>
         </classes>
     </test>
 </suite>

@@ -19,7 +19,7 @@ public class LoginTests extends TestBase {
 
 
     @Test
-    @Parameters({"username", "password"})
+    @Parameters(value = {"username", "password"})
    public void loginPositiveTest(String username, String password) {
         new LoginPage(app.driver)
                 .enterPersonalData(username, password)
